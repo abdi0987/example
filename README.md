@@ -1,8 +1,7 @@
-# Let's Write Code
+# Creating a Node.js CLI
 
-All the code examples for the youtube series
-[Let's Write Code](https://www.youtube.com/user/kylerobinsonyoung)
+> [https://www.youtube.com/watch?v=C9xGEJ80jjs](https://www.youtube.com/watch?v=C9xGEJ80jjs)
 
-## Ideas?
-If you have any screencast you'd like to see or suggestions, please
-[open an issue here](https://github.com/shama/letswritecode/issues). Thanks!
+Install [io.js](https://iojs.org/en/index.html).
+
+Run `./cli.js` to run the example.

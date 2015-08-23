@@ -1,0 +1,36 @@
+{
+  "name": "quickify",
+  "version": "0.1.0",
+  "description": "CLI tool",
+  "main": "cli.js",
+  "bin": {
+    "quickify": "cli.js"
+  },
+  "config": {
+    "outFile": ""
+  },
+
+  "scripts": {
+    "test": "echo \"$npm_package_config_minFile\" && exit 1",
+    "build": "browserify app.js -o $npm_package_config_outFile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "keywords": [
+    "CLI",
+    "tool",
+    "util",
+    "node"
+  ],
+  "author": "Abdi Mahamed",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "prompt": "^0.2.14"
+  },
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  }
+}
