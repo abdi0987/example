@@ -9,7 +9,6 @@
   "config": {
     "outFile": ""
   },
-
   "scripts": {
     "test": "echo \"$npm_package_config_minFile\" && exit 1",
     "build": "browserify app.js -o $npm_package_config_outFile"
@@ -28,7 +27,8 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "^11.0.1",
-    "prompt": "^0.2.14"
+    "prompt": "^0.2.14",
+    "watchify": "^3.3.1"
   },
   "dependencies": {
     "shelljs": "^0.5.3"
